@@ -7,7 +7,9 @@
  *
  */
 
-
+const capitalize = (string) => {
+  return string.charAT(0).toUpperCase() + string.slice(1)
+}
 //* Begin of tests
 const assert = require('assert')
 
